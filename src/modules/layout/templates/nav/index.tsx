@@ -44,8 +44,12 @@ const callsToAction = [
   { name: 'Contact sales', href: '#', icon: PhoneIcon },
 ]
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+// function classNames(...classes) {
+//   return classes.filter(Boolean).join(' ')
+// }
+
+function classNames(...classes: (string | undefined | null | false)[]): string {
+  return classes.filter(Boolean).join(' ');
 }
 
 
