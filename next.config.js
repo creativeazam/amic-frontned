@@ -11,6 +11,7 @@ module.exports = withStoreConfig({
   images: {
     domains: [
       "medusa-public-images.s3.eu-west-1.amazonaws.com",
+      "https://amicfashion-backend-production.up.railway.app",
       "localhost",
       "medusa-server-testing.s3.amazonaws.com",
     ],
